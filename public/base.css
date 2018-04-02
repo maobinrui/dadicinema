@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+article,aside,canvas,details,figcaption,figure,footer,header,main,nav,section,summary{
+	display: block;
+	border:0;
+}
+body,h1,h2,h3,h4,h5,h6,a,p,figure,figcaption,ul,ol,li,dl,dt,dd,input,img,div,header,section,main,footer,nav{margin:0;padding:0;box-sizing:border-box;}
+
+
+body,html{height:100%;}
+ul,li{list-style:none;}
+input{
+	outline: none;
+}
+img{
+	border:0;
+	display: block;
+}
+body{color:#000;
+	font-family:"微软雅黑";
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+/* @media screen and (max-width:320px){
+	body{
+		font-size:14px;}
+}	
+@media screen and (min-width:321px) and (max-width:420px){
+	body{
+		font-size:16px;}
+}	
+@media screen and (min-width:421px){
+	body{
+		font-size:18px;}
+}	
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+
