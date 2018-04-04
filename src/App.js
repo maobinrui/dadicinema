@@ -9,10 +9,7 @@ class App extends Component {
     return (
       <div className="App">
           {this.props.children}
-          <NavLink to="/home">home</NavLink>
-          <NavLink to="/list">list</NavLink>
-          <NavLink to="/login">login</NavLink>
-          <NavLink to="/register">register</NavLink>  
+
       </div>
     );
   }

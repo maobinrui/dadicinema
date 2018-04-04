@@ -12,8 +12,11 @@ import List from "../Components/List";
 import HotPlay from "../Components/List/HotPlay";
 import HotSell from "../Components/List/HotSell";
 import Login from "../Components/Login";
+import Pw from "../Components/Login/Pw";
+import Codes from "../Components/Login/Codes";
 import Register from "../Components/Register";
 import React from "react";
+
 // jsx语法将会被解析成react方法调用，react模块必须引用
 const router =(
   <Router>
@@ -38,10 +41,19 @@ const router =(
             </List>
         }/>
         <Route path="/register" component={Register}/>
-        <Route path="/login" component={Login}/>
+        <Route path="/login" render={()=>
+        <Login>
+          <Switch>
+          <Route path="/login/pw" component={Pw}/>
+          <Route path="/login/codes" component={Codes}/>
+
+          <Redirect from="/" to="/login/codes"/>
+          </Switch>
+        </Login>
+      }/>
         <Redirect from="*" to="/home"/>
       </Switch>
-    </App> 
+    </App>
   </Router>
 )
 

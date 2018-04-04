@@ -7,7 +7,7 @@ class HotPlay extends React.Component{
       }
 
   render(){
-    return (<div>HotPlay</div>)
+    return (<div></div>)
 
   }
 }
