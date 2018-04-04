@@ -13,11 +13,9 @@ class List extends React.Component{
       }
 
   render(){
-<<<<<<< HEAD
-    return (<div>
-    	<header></header>
-    	List
-=======
+
+
+
     return (
 
         <div id="list">
@@ -34,8 +32,6 @@ class List extends React.Component{
                 <p className="nonemove">暂无影片</p>
                 <p className="iphonenum">客服电话：400-678-2828</p>
             </div>
-
->>>>>>> 40a940aa918c8e901ea9435fce9c899bb9bb9721
       {this.props.children}
       {
         this.state.headbarisshow?<Headbar/>:''
