@@ -7,7 +7,9 @@ class List extends React.Component{
       }
 
   render(){
-    return (<div>List
+    return (<div>
+    	<header></header>
+    	List
       {this.props.children}
       </div>)
 
