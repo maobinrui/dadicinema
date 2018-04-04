@@ -1,0 +1,33 @@
+#navbar{
+
+        position:fixed;
+        bottom:0rem;
+        left:0rem;
+        background-size:.4rem;
+        font-size: .2rem;
+        height:.9rem;
+        width:100%;
+        text-align: center;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding:0 .20rem;
+        text-align:center;
+        background:#fff;
+        z-index:100;
+        p{
+            display: inline-block;
+            width:50%;
+            padding-top:.5rem;
+
+        }
+        .play{
+                background:url("/img/ic_tab_1_selected.png") no-repeat center .1rem;
+                background-size:.4rem;
+            }
+        .sall{
+                background:url("/img/sale_hui.png") no-repeat center .1rem;
+                background-size:.4rem;
+            }
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#cinema header {
+  background: #fff url("/img/back.png") no-repeat 0.1rem 0.25rem;
+  background-size: .4rem;
+  font-size: .4rem;
+  font-weight: 700;
+  height: .9rem;
+  line-height: .9rem;
+  text-align: center;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem; }
+  #cinema header span {
+    display: inline-block;
+    background: transparent;
+    height: .6rem;
+    width: .7rem;
+    position: relative;
+    left: -2.4rem; }
+  #cinema header p {
+    display: inline-block; }
+
+#cinema .cityname {
+  font-size: .3rem;
+  color: #666666;
+  border-bottom: 1px solid #ccc;
+  line-height: .5rem;
+  padding: .5rem .4rem;
+  text-align: left; }
+  #cinema .cityname span {
+    display: block;
+    font-size: .2rem;
+    color: #9d9d9d；; }

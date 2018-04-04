@@ -1,0 +1,134 @@
+
+body,html{
+    height:100%;
+    width:100%;
+}
+
+#login{
+    background:#f5f5f5;
+    header{
+
+        background:#fff url('/img/back.png') no-repeat .1rem .25rem;
+        background-size:.4rem;
+        font-size: .4rem;
+        font-weight: 700;
+        height:.9rem;
+        line-height: .9rem;
+        text-align: center;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        span{
+            display: inline-block;
+            background:rgba(0,0,0,0);
+            height:.6rem;
+            width:.7rem;
+            position: relative;
+            left:-2.4rem;
+        }
+        p{
+            display:inline-block;
+        }
+
+    }
+    section{
+        width:100%;
+        height:100%;
+        padding-bottom:88%;
+        background:#f5f5f5;
+        .navbar{
+            height:.9rem;
+            background:#fff;
+            margin-top:.2rem;
+            display:flex;
+            justify-content:space-around;
+            li{
+                height:.9rem;
+                width:50%;
+                line-height:.9rem;
+                font-size:16px;
+                a{
+                    display:inline-block;
+                    width:50%;
+                }
+            }
+        }
+        .isshows{
+            display:block;
+        }
+        .cd{
+
+            .iphone,.pw{
+                display: block;
+                width: 80%;
+                font-size: .3rem;
+                line-height: 1.2;
+                height:.8rem;
+                color: #555;
+                vertical-align: middle;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                 margin-left: 10%;
+                 margin-top:.3rem;
+                 text-indent: .2rem
+            }
+        }
+        .codes{
+             width: 50%;
+                font-size: .16rem;
+                line-height: 1.2rem;
+                height:.8rem;
+                color: #555;
+                vertical-align: middle;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                font-size: .3rem;
+                 margin-top:.3rem;
+                 text-indent: .2rem;
+        }
+        .pic{
+            display:inline;
+             line-height: 1.2rem;
+            margin-left:.2rem;
+        }
+         .pics{
+            display:inline;
+            line-height: 1.2rem;
+            margin-left:.2rem;
+            background-color: #62d399;
+            color: #fff;
+            height:.8rem;
+            border:none;
+            line-height:.8rem;
+            width:30%;
+
+        }
+        .queren{
+            display: block;
+                width: 80%;
+                font-size: .4rem;
+                line-height: 1.2;
+                height:.8rem;
+                color: #555;
+                vertical-align: middle;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                 margin-left: 10%;
+                 margin-top:.3rem;
+                 text-indent: .2rem;
+                 background:#62d399;
+                 color:#fff;
+                 font-weight:700;
+        }
+        .color{
+            border-bottom:2px solid #62d399
+        }
+    }
+}

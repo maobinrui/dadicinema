@@ -1,0 +1,54 @@
+#list{
+
+    .changehead{
+        display:flex;
+        justify-content: space-between;
+        background-size:.4rem;
+        font-size: .2rem;
+        height:.9rem;
+        line-height: .9rem;
+        text-align: center;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding:0 .20rem;
+        background: #f3f3f3;
+
+        p{
+            display:inline-block;
+        }
+
+    }
+    .change{
+        display:flex;
+        justify-content: space-between;
+        background-size:.4rem;
+        font-size: .2rem;
+        height:.9rem;
+        line-height: .9rem;
+        text-align: center;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding:0 .20rem;
+        border-bottom:1px solid #ccc;
+
+    }
+    .nonemove{
+        text-align: center;
+        font-size: .3rem;
+        height:.9rem;
+        line-height: .9rem;
+
+    }
+    .iphonenum{
+        text-align: center;
+        font-size: .2rem;
+        height:.9rem;
+        line-height: .9rem;
+        color:#62d399;
+    }
+
+ }
