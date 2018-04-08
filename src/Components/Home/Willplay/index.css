@@ -1,0 +1,21 @@
+#willplay {
+  display: flex;
+  flex-wrap: wrap; }
+  #willplay dl {
+    width: 25%;
+    padding: .1rem; }
+    #willplay dl dt {
+      width: 100%;
+      height: 2.3rem;
+      background: url(./img/film_bg.png) no-repeat center;
+      background-size: cover; }
+      #willplay dl dt img {
+        width: 100%;
+        height: 2.3rem; }
+    #willplay dl dd {
+      width: 100%;
+      height: .6rem;
+      background: red;
+      color: #fff;
+      line-height: .6rem;
+      font-size: .16rem; }

@@ -1,0 +1,29 @@
+#willplay{
+    display: flex;
+    flex-wrap:wrap;
+    dl{
+    width:25%;
+    padding:.1rem;
+    dt{
+      width: 100%;
+      height:2.3rem;
+      background: url(./img/film_bg.png) no-repeat center;
+      background-size:cover;
+      img{
+       width: 100%;
+       height:2.3rem; 
+      }
+
+    }
+    dd{
+      width: 100%;
+      height:.6rem;
+      background: red;
+      color: #fff;
+      line-height:.6rem;
+      font-size: .16rem;
+
+    }
+  }
+
+}

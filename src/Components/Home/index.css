@@ -1,4 +1,3 @@
-
 #home {
   position: relative; }
   #home header {
@@ -13,7 +12,8 @@
   #home .slides {
     width: 100%;
     height: 3.88rem;
-    background: #0ff; }
+    background: #0ff;
+    overflow: hidden; }
     #home .slides div {
       width: 100%;
       height: 3.88rem;
@@ -56,4 +56,3 @@
         padding-left: .24rem;
         padding-right: .1rem;
         font-size: .06rem; }
-

@@ -1,2 +1,26 @@
 #playing {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  #playing dl {
+    width: 25%;
+    padding: .1rem; }
+    #playing dl dt {
+      width: 100%;
+      height: 2.3rem;
+      background: url(./img/film_bg.png) no-repeat center;
+      background-size: cover; }
+      #playing dl dt img {
+        width: 100%;
+        height: 2.3rem; }
+    #playing dl dd {
+      width: 100%;
+      height: .6rem;
+      background: red; }
+      #playing dl dd a {
+        display: block;
+        width: 100%;
+        height: .6rem;
+        color: #fff;
+        line-height: .6rem;
+        font-size: .16rem; }

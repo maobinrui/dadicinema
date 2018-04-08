@@ -10,10 +10,9 @@ class Home extends React.Component{
     super(props);
         this.state={
 		    url:['../img/dadibigshow_1.jpg','../img/dadibigshow_2.jpg','../img/dadibigshow_3.jpg','../img/dadibigshow_4.jpg','../img/dadibigshow_5.jpg'],
-		    zimu:['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
 		    num:[1,2,3],
-			imgHeight: 176,
-			slideIndex: 0,
+			  imgHeight: 176,
+			  slideIndex: 0,
       		}
     	}
   componentDidMount() {
